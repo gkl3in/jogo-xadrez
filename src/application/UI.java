@@ -46,7 +46,7 @@ public class UI {
 			int    row    = Integer.parseInt(s.substring(1));
 			return new ChessPosition(column, row);
 		} catch (RuntimeException e) {
-			throw new InputMismatchException("Error lendo a posição do xadrez");
+			throw new InputMismatchException("Erro lendo a posição do xadrez");
 		}
 	}
 
